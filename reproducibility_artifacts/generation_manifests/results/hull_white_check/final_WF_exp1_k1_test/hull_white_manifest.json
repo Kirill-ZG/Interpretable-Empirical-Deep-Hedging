@@ -1,0 +1,24 @@
+{
+  "base_policy": "agent",
+  "clip_delta": true,
+  "final_test_year": 2023,
+  "first_test_year": 2015,
+  "formula_selection": "parsimonious_10pct",
+  "kappa": 1.0,
+  "min_abs_ds": 0.0,
+  "n_bootstrap": 10000,
+  "outputs": {
+    "coefficients": "results\\hull_white_check\\final_WF_exp1_k1_test\\hull_white_coefficients_all.csv",
+    "test_bootstrap": "results\\hull_white_check\\final_WF_exp1_k1_test\\hull_white_test_bootstrap_all.csv",
+    "validation_bootstrap": "results\\hull_white_check\\final_WF_exp1_k1_test\\hull_white_validation_bootstrap_all.csv"
+  },
+  "policy": "hull_white_quadratic",
+  "prefix": "final_WF_exp1_k1_test",
+  "reward_exponent": 1.0,
+  "ridge_alpha": 0.0,
+  "seed": 123,
+  "transaction_cost": 0.0,
+  "vega_iv_column": "iv_preferred_else_v",
+  "workers": 3,
+  "zero_tolerance": 1e-10
+}

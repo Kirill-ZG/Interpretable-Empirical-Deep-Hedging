@@ -1,0 +1,41 @@
+{
+  "config": {
+    "pool_version": "train_pool_v2_score_residual_loss_grid",
+    "model_name": "final_WF_exp1_k1_test2022",
+    "checkpoint": "20000",
+    "candidate": "smooth_focus_bs_delta_residual",
+    "sample_kind": "focus",
+    "target_kind": "delta_residual",
+    "loss_kind": "default",
+    "target_source": "smooth_kernel_bs_delta_residual",
+    "target_smoothing_bandwidth_scale": null,
+    "n_sr_samples": 50000,
+    "niterations": 200,
+    "maxsize": 24,
+    "populations": 20,
+    "bound_epsilon": 0.0001,
+    "gap_weight_scale": 4.0,
+    "loss_gap_weight_scale": 4.0,
+    "gamma_weight_scale": 1.5,
+    "focus_weight_boost": 4.0,
+    "focus_stratified_share": 0.6,
+    "deterministic_search": true,
+    "device": "cpu",
+    "max_smoothing_rows": 100000,
+    "smoothing_neighbors": 256,
+    "smoothing_bandwidth_scale": 1.0,
+    "seed": 123
+  },
+  "candidate_manifest": {
+    "candidate": "smooth_focus_bs_delta_residual",
+    "sample_kind": "focus",
+    "target_kind": "delta_residual",
+    "loss_kind": "default",
+    "target_source": "smooth_kernel_bs_delta_residual",
+    "target_smoothing_bandwidth_scale": null,
+    "description": "Hybrid stratified/economic-focus sample; symbolic correction to BS delta; target is the smooth_kernel_bs_delta_residual policy.",
+    "symbolic_formula": "(m_fwd - 1*1.1610616)*(iv + m_fwd*2.5851593 - 1*2.3344073)",
+    "score_formula": "(m_fwd - 1*1.1610616)*(iv + m_fwd*2.5851593 - 1*2.3344073)",
+    "delta_formula": "clip(BS_DELTA(m_fwd, tau, iv, q) + ((m_fwd - 1*1.1610616)*(iv + m_fwd*2.5851593 - 1*2.3344073)), 0, 1)"
+  }
+}

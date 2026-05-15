@@ -1,0 +1,1 @@
+clip(BS_DELTA(m_fwd, tau, iv, q) + (-0.044134233/(-iv + m_fwd)), 0, 1)

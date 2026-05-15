@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "model_name": "final_WF_exp1_k1_test2022",
+  "checkpoint": 20000,
+  "selected_csv": "results\\testing\\final_WF_exp1_k1_test2022_20000.csv",
+  "output_dir": "results\\switching_test_2022",
+  "policies": [
+    "switch2_moneyness_bs_delta_residual",
+    "switch3_moneyness_bs_delta_residual"
+  ],
+  "validation_bootstrap_rows": 35,
+  "test_bootstrap_rows": 35,
+  "completed_utc": "2026-05-05T14:03:20.892834+00:00"
+}

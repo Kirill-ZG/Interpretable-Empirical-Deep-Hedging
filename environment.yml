@@ -1,0 +1,23 @@
+name: interpretable-empirical-deep-hedging
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10
+  - joblib
+  - matplotlib
+  - numpy
+  - pandas
+  - pillow
+  - pyarrow
+  - python-dateutil
+  - pytz
+  - quantlib-python
+  - scikit-learn
+  - scipy
+  - six
+  - threadpoolctl
+  - pytorch
+  - pip
+  - pip:
+      - pysr

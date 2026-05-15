@@ -1,0 +1,25 @@
+{
+  "config": {
+    "pool_version": "train_pool_v2_score_residual_loss_grid",
+    "model_name": "final_WF_exp1_k1_test2017",
+    "checkpoint": "4000",
+    "smoother": "smooth_kernel_bs_delta_residual_bw100",
+    "kind": "kernel_bs_delta_residual",
+    "max_smoothing_rows": 100000,
+    "smoothing_neighbors": 256,
+    "smoothing_bandwidth_scale": 1.0,
+    "device": "cpu",
+    "monotonic_max_iter": 300,
+    "monotonic_learning_rate": 0.05,
+    "monotonic_max_leaf_nodes": 31,
+    "monotonic_l2": 0.001,
+    "seed": 123
+  },
+  "description": "Bandwidth-sensitivity target: local Gaussian KNN smoothing of agent_delta - BS_delta.",
+  "feature_cols": [
+    "forward_moneyness",
+    "T_years",
+    "iv"
+  ],
+  "training_rows": 100000
+}

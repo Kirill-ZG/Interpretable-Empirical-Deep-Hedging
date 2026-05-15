@@ -1,0 +1,36 @@
+{
+  "config": {
+    "pool_version": "train_pool_v2_score_residual_loss_grid",
+    "model_name": "final_WF_exp1_k1_test2015",
+    "checkpoint": "19000",
+    "target_year": 2015,
+    "train_start_year": 2010,
+    "train_end_year": 2013,
+    "validation_year": 2014,
+    "target_data_dir": "data_interpret_real_wf_2015",
+    "cleaned_data_dir": "cleaned_data",
+    "canonical_position": "bs",
+    "device": "cpu",
+    "max_train_episodes": 20000,
+    "train_support_probes": 20000,
+    "general_probes": 20000,
+    "general_domain": {
+      "m_min": 0.85,
+      "m_max": 1.2,
+      "t_days_min": 7.0,
+      "t_days_max": 100.0,
+      "iv_min": 0.05,
+      "iv_max": 0.8
+    },
+    "seed": 123
+  },
+  "observations": {
+    "n_rows": 83470,
+    "sample_sources": {
+      "train_empirical": 43470,
+      "train_support_probe": 20000,
+      "general_probe": 20000
+    },
+    "n_unique_feature_rows_rounded_8dp": 49450
+  }
+}

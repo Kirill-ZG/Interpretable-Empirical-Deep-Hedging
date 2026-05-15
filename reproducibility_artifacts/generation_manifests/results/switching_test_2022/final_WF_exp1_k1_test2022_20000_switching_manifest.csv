@@ -1,0 +1,3 @@
+policy,cuts,elapsed_minutes,model_name,checkpoint,test_year,validation_year,train_start_year,train_end_year,config_name,n_sr_samples,niterations,maxsize,populations,deterministic_search,sample_allocation,seed,target,features
+switch2_moneyness_bs_delta_residual,[1.0],0.29245790243148806,final_WF_exp1_k1_test2022,20000,2022,2021,2010,2020,switch2_moneyness_bs_delta_residual,50000,200,25,15,True,equal,123,agent_delta - bs_delta,"['forward_moneyness', 'T_years', 'iv']"
+switch3_moneyness_bs_delta_residual,"[0.95, 1.05]",0.004061142603556315,final_WF_exp1_k1_test2022,20000,2022,2021,2010,2020,switch3_moneyness_bs_delta_residual,50000,200,25,15,True,equal,123,agent_delta - bs_delta,"['forward_moneyness', 'T_years', 'iv']"

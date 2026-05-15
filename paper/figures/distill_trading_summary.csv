@@ -1,0 +1,7 @@
+family,comparison,rew_mean,rew_fav,rew_bad,rew_indist,log_down_var_ratio_mean,log_down_var_ratio_fav,log_down_var_ratio_bad,log_down_var_ratio_indist,log_var_ratio_mean,log_var_ratio_fav,log_var_ratio_bad,log_var_ratio_indist
+Raw uniform,Formula--BS,0.8199549856081709,6,1,2,-0.37397307717644607,8,0,1,0.022642600842291458,0,1,8
+Raw uniform,Formula--Agent,0.2921642201804133,5,3,1,0.04559255258184115,1,2,6,-0.016448511452928492,0,0,9
+Smooth uniform,Formula--BS,0.9041740338096509,7,1,1,-0.3464542089544568,7,0,2,0.02203463976910147,0,1,8
+Smooth uniform,Formula--Agent,0.3763832683818933,4,2,3,0.07311142080383044,1,3,5,-0.01705647252611847,0,1,8
+Smooth focus,Formula--BS,1.0035438676786381,6,1,2,-0.4243340020273038,7,0,2,-0.029184758826684525,0,1,8
+Smooth focus,Formula--Agent,0.4757531022508805,5,2,2,-0.004768372269016507,2,3,4,-0.06827587112190445,3,0,6

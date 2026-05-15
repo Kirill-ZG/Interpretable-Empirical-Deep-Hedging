@@ -1,0 +1,1 @@
+clip(BS_DELTA(m_fwd, tau, iv, q) + (iv*(-0.49780503)*(-erf(-iv + tau + erf(17.394995 - 18.206802/m_fwd)))), 0, 1)

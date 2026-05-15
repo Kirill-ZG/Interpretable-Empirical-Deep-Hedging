@@ -1,0 +1,1 @@
+iv*m_fwd*(m_fwd - 1.2154956)*exp(iv)
