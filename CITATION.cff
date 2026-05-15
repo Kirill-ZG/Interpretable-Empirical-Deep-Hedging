@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this repository, please cite it using the metadata below."
-title: "Interpretable Empirical Deep Hedging: Delta Corrections, Regime Fragility and Symbolic Distillation"
+title: "What Does Deep Hedging Actually Learn? Delta Corrections, Regime Fragility, and Symbolic Distillation"
 authors:
   - family-names: "Zernikov"
     given-names: "Kirill"
@@ -10,7 +10,7 @@ license: "MIT"
 repository-code: "https://github.com/Kirill-ZG/Interpretable-Empirical-Deep-Hedging"
 preferred-citation:
   type: article
-  title: "Interpretable Empirical Deep Hedging: Delta Corrections, Regime Fragility and Symbolic Distillation"
+  title: "What Does Deep Hedging Actually Learn? Delta Corrections, Regime Fragility, and Symbolic Distillation"
   authors:
     - family-names: "Zernikov"
       given-names: "Kirill"

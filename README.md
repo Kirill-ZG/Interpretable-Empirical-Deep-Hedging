@@ -3,8 +3,7 @@
 This repository contains the code and saved reproducibility inputs for the
 paper:
 
-**Interpretable Empirical Deep Hedging: Delta Corrections, Regime Fragility and
-Symbolic Distillation**
+**What Does Deep Hedging Actually Learn? Delta Corrections, Regime Fragility, and Symbolic Distillation**
 
 Repository: https://github.com/Kirill-ZG/Interpretable-Empirical-Deep-Hedging
 
