@@ -63,8 +63,7 @@ guaranteed execution log.
 
 For publication reproducibility, the first layer is the essential layer: all
 figures and tables can be regenerated from the saved inputs.  The second layer
-can still be made credible by adding command manifests for the current scripts,
-then rerunning selected high-value artifacts when feasible.
+is documented through reconstructed commands and manifests, but not publicly executable without licensed raw data.
 
 ## Size Note
 

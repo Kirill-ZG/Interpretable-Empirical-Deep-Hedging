@@ -25,7 +25,7 @@ The repository does not include:
 - raw OptionsDX files;
 - cleaned full option panels derived from OptionsDX;
 - large temporary walk-forward data folders;
-- model checkpoints unless added separately in a release artifact.
+- full checkpoint grids, but selected validation-picked actors/scalers are included.
 
 ## Expected Raw-Data Placement for Layer 2
 
